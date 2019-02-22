@@ -51,8 +51,7 @@ which in this case is the .top div container. */
   font-family: 'Quicksand', sans-serif;
   font-size: 1.25rem;
   font-weight: bold;
-  
-
+  margin: 10px;
 }
 
 .btn {
@@ -82,14 +81,17 @@ which in this case is the .top div container. */
 }
 
 .middle-container {
-
+  
   padding-top: 15px;
+ 
+  
 }
 
 .bottom-container {
   background-color: #32dbc6;
   padding-bottom: 15px;
   padding-top: 20px;
+  
 }
 
 .skill-row {
@@ -119,5 +121,31 @@ which in this case is the .top div container. */
   margin: 100px auto;
 }
 
+.get-in-touch {
+  font-size: 2.55rem;
+}
+
+.btn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+  font-size: 1.2rem;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  top: 40px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
 /* Fixed position will fix an element regardless of scrolling. useful for sidebar's
 and such */

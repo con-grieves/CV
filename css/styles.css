@@ -149,6 +149,8 @@ which in this case is the .top div container. */
 }
 /* Fixed position will fix an element regardless of scrolling. useful for sidebar's
 and such */
+
+/*JS Carosel CSS */
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -229,9 +231,9 @@ and such */
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 3s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 3s;
 }
 
 @-webkit-keyframes fade {

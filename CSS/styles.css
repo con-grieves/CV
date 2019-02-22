@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2.4;
+
+  /* "prefered font" ,alt,alt,alt */
+}
+
+h1 {
+  font-size: 4.625rem;
+  margin-top: 50px;
+  font-family: 'Kalam', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  color: #66BFBF;
+}
+
+img {
+  border-radius: 100%;
+}
+
+h3 {
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-color: #dfdfdf;
+  border-top-style: dotted;
+  border-width: 8px;
+  width: 5%
+
+}
+
+/* right, top, left and bottom refer to the margin in the respective direction from its PARENT body
+which in this case is the .top div container. */
+.subtitle {
+  font-size: 1.5rem;
+  /* Use rem (a function of 16px) for text size */
+  font-weight: normal;
+  position: relative;
+  bottom: 45px;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  
+
+}
+
+.btn {
+  color: #11999E;
+}
+
+.cloud-top {
+  position: absolute;
+  right: 950px;
+  top: 30px;
+  border-radius: 0;
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 950px;
+  bottom: 350px;
+  border-radius: 0;
+}
+
+.Top {
+  background-color: #defcfc;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.middle-container {
+
+  padding-top: 15px;
+}
+
+.bottom-container {
+  background-color: #32dbc6;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile {
+  margin: 100px auto 100px auto;
+}
+
+.comp1 {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.comp2 {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 100px auto;
+}
+
+/* Fixed position will fix an element regardless of scrolling. useful for sidebar's
+and such */
